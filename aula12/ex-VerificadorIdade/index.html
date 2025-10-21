@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Horas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <div id="form-idade">
+        
+            <!-- Data de Nascimento -->
+             <fieldset>
+                 <label for="data-nascimento">Ano de Nascimento</label>
+                 <input type="number" name="data-nascimento" id="data-nascimento" required>
+             </fieldset>
+
+            <!-- Escolha o Sexo -->
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masculino" value="Masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino" value="Feminino">
+                <label for="feminino">Feminino</label>
+            </fieldset>
+
+            <button id="btn-verificar">Verificar</button>
+
+            <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>&copy;CursoemVideo | Gustavo Guanabara</p>
+        <p><strong>Ronaldo Brasil Rebouças Filho</strong></p>
+        <p>Criado em <strong>18/10/2025</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

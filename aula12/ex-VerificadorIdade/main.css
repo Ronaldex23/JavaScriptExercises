@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #237bd9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+header{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*                  FORMULARIO                  */
+
+#form-idade{
+    background-color: #2565bf;
+    color: white;
+    font-size: 1.2rem;
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 1rem;
+}
+
+label:first-child, legend{
+    font-weight: bold;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: #0b336a;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #094a8c;
+}
+
+#data-nascimento{
+    font-size: 1rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 6rem;
+}
+
+/*                   RESULTADO                 */
+#resultado{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#resultado img{
+    margin-top: 1rem;
+    border-radius: 80%;
+}
