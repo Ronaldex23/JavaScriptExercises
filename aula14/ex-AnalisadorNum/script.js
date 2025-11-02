@@ -1,5 +1,5 @@
 //botao para adicionar
-let btnAdd = document.querySelector('#btn-add')
+const btnAdd = document.querySelector('#btn-add')
 btnAdd.addEventListener('click', adicionarNum)
 
 
@@ -12,7 +12,7 @@ containerValores.innerHTML = ''
 
 //listaValores
 let lista = document.createElement('select')
-let listaNum = []
+const listaNum = []
 
 //VALIDACAO
 function validaNum(n){
