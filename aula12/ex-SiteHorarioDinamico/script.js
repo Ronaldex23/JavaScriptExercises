@@ -1,10 +1,10 @@
 window.onload = carregar
 
 function carregar(){
-    let hora = new Date()
-    let horaAtual = hora.getHours()
-    var text = document.getElementById('text')
-    var img = document.getElementById('img')
+    const hora = new Date()
+    const horaAtual = hora.getHours()
+    const text = document.getElementById('text')
+    const img = document.getElementById('img')
     
     text.innerHTML = `Agora são ${horaAtual} horas`
     
