@@ -1,4 +1,4 @@
-let btnGerar = document.querySelector('#btn-tabuada')
+const btnGerar = document.querySelector('#btn-tabuada')
 btnGerar.addEventListener('click', gerarTabuada)
 
 function gerarTabuada(){
