@@ -1,0 +1,48 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    height: 5rem;
+    width: 4rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#btn div{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-num{
+    background-color: rgb(224, 224, 224);
+}
+
+.btn-num:hover{
+    cursor: pointer;
+    background: rgb(207, 207, 207);
+}
+
+.btn-especial, .btn-acao{
+    background: var(--secundaria);
+}
+
+.btn-especial:hover, .btn-acao:hover{
+    cursor: pointer;
+    background: var(--terciaria);
+}
+
+button:active{
+    box-shadow: var(--contorno);
+}
+
+#btn-backspace{
+    width: 8.5rem;
+}
+
+#btn-zero{
+    width: 13rem;
+}
