@@ -26,16 +26,12 @@ header{
 }
 
 /* Configurações do Perfil */
-.div-perfil h2{
-    font-size: 1.2rem;
-    color: var(--cor-perfil);
-}
 
 #container-perfis{
     height: 74vh; /*altura*/
     width: 100vw; /*largura*/
     text-align: center;/* disposicao do texto */
-
+    
     display: flex;/* para a div pai, os elementos filhos serão organizados na mesma linha */
     justify-content: center;/* disposicao horizontal em em flex direction = row*/
     align-items: center;/* disposicao vertical em em flex direction = row */
@@ -48,11 +44,20 @@ header{
     height: 15.6rem;
     margin-bottom: 1rem;
     border-radius: 80%;
+    transition: all 0.7s ease-in-out;
+}
+
+.div-perfil{
+    transition: all 0.7s ease-in-out;/*transição suave para o efeito hover*/
+}
+
+.div-perfil h2{
+    font-size: 1.2rem;
+    color: var(--cor-perfil);
 }
 
 .div-perfil:hover{/*Classe para div do perfil aumentar quando mouse estiver em cima*/
     transform: scale(1.125);
-    transition: all 0.7s ease-in-out;
     cursor: pointer; 
 }
 
